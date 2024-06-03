@@ -1,0 +1,15 @@
+.main{
+    margin-top: 5%;
+}
+body{
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size:cover;
+     height:100%;
+     background-blend-mode: lighten;
+    
+
+     
+    
+}
