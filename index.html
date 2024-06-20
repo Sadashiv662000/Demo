@@ -1,98 +1,76 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="style.css">
-    <marquee direction="left" bgcolor="4dffff"><t6  style="color:black;" ><b>Welcome to the Registartion form. Please fill 
-        the details to Register yourself...</b></t6></marquee>
- </head>
- <div class="head">
-     <h1 style="color:black"> REGISTRATION FORM</h1>
- </div>
- <body align="center">
-    <div class ="main" align = "center">
-
-        <div ></div>
-        <form>
+    <marquee direction="left" bgcolor="4dffff">
+        <t6 style="color:black;">
+            <b>Welcome to the Registration form. Please fill in the details to register yourself...</b>
+        </t6>
+    </marquee>
+</head>
+<body align="center">
+    <div class="head">
+        <h1 style="color:black">REGISTRATION FORM</h1>
+    </div>
+    <div class="main" align="center">
+        <form action="https://formsubmit.co/sadashivbhagai66@gmail.com" method="POST">
             <table>
-                    <div class="name_div">
-                        <td align="left">
+                <tr class="name_div">
+                    <td align="left">
                         <label for="name">Name : </label>
                     </td>
                     <td align="right">
-                        <input type="textbox" id="txtbx" placeholder="Enter your name"/><br><br>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required/><br><br>
                     </td>
-                    </div>
-                    <div class="name_div">
-                        <tr>
-                            <td align="left">
-                        <label for="Email">Email : </label>
-                    </td>
-                    <td align="right">
-                        <input type="email" id="mail" placeholder="Enter your Email"/><br><br>
-                    </td>
-                    </tr>
-                    </div>
-
-                    <div class="name_div">
-                        <tr>
-                            <td align="left">
-                        <label for="Mobile No :">Mobile No  : </label><br>
+                </tr>
+                <tr class="name_div">
+                    <td align="left">
+                        <label for="email">Email : </label>
                     </td>
                     <td align="right">
-                        <input type="textbox" id="num" placeholder="Enter your Number"/><br><br>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email" required/><br><br>
                     </td>
-                    </tr>
-                    </div>
-
-                    <div class="name_div">
-                        <tr>
-                            <td align="left">
-                        <label for="Subject">Subject : </label>
+                </tr>
+                <tr class="name_div">
+                    <td align="left">
+                        <label for="mobile">Mobile No : </label>
                     </td>
                     <td align="right">
-                        <input type="textbox" id="txtbx" placeholder="Enter your name"/><br><br>
+                        <input type="text" id="mobile" name="mobile" placeholder="Enter your Number" required/><br><br>
                     </td>
-                    </tr>
-                    </div>
-                    <div class="name_div">
-                        <tr>
-                            <td align="left">
-                        <label for="State">State : </label>
+                </tr>
+                <tr class="name_div">
+                    <td align="left">
+                        <label for="subject">Subject : </label>
+                    </td>
+                    <td align="right">
+                        <input type="text" id="subject" name="subject" placeholder="Enter your subject" required/><br><br>
+                    </td>
+                </tr>
+                <tr class="name_div">
+                    <td align="left">
+                        <label for="state">State : </label>
                     </td>
                     <td align="left">
-                        <select name="State" id="ddlstate">
-                            <option >--select--</option>
+                        <select name="state" id="state" required>
+                            <option value="">--select--</option>
                             <option value="Karnataka">Karnataka</option>
                             <option value="Andra-Pradesh">Andra-Pradesh</option>
                             <option value="Kerala">Kerala</option>
                             <option value="Tamilnadu">Tamilnadu</option>
                             <option value="Goa">Goa</option>
-                    </select><br><br>
-                </td>
+                        </select><br><br>
+                    </td>
                 </tr>
             </table>
             <br>
-            
-            <br>
-            <br>
-                    </div>
-                    <body>
-    <a href="terms.html" class="terms-button">Register</a>
-</body>
-                   
-               
+            <div class="name_div">
+                <button type="submit" class="terms-button">Register</button>
+            </div>
         </form>
-
-
-
-   
-</div>
-
-
-
- </body>
- </html>
+    </div>
+</body>
+</html>
